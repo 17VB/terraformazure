@@ -3,3 +3,5 @@ resourcegroupname = "prg"
 tags = {
     environment = "test"
 }
+vnetname = "pvnet"
+subnetname = "psubnet"
