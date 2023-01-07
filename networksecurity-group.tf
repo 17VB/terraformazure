@@ -3,7 +3,7 @@ resource "azurerm_network_security_group" "pnsg" {
     location = var.location
     resource_group_name = azurerm_resource_group.prg.name
 
-    security_rule = {
+    security_rule  {
       name               = "SSH"
       priority           = 100
       direction          = "Inbound" 
