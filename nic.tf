@@ -5,7 +5,7 @@ resource "azurerm_network_interface" "pnic" {
 
     ip_configuration {
       name = "internal"
-      subnet_id = azurerm_subnet_psubnet.id
+      subnet_id = azurerm_subnet.psubnet.id
       private_ip_address_allocation = "Dynamic"
       public_ip_address_id  = azurerm_public_ip.ppublicip.id
     }
