@@ -6,3 +6,4 @@ tags = {
 vnetname = "pvnet"
 subnetname = "psubnet"
 publicipname = "ppublicip"
+nsgname = "pnsg"

@@ -19,3 +19,7 @@ variable "publicipname" {
     type = string
   
 }
+variable "nsgname" {
+    type = string
+  
+}
