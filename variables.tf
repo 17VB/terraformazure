@@ -27,4 +27,7 @@ variable "nicname" {
     type = string
   
 }
-
+variable "nicnsgname" {
+    type = string
+  
+}

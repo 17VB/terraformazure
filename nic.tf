@@ -11,3 +11,11 @@ resource "azurerm_network_interface" "pnic" {
     }
      tags = var.tags
 }
+
+resource "azurerm_network_interface_application_security_group_association" "pnicnsg" {
+    name = var.nicnsgname
+    network_interface_id = azurerm_network_interface.pnic.id
+    network_security_group_id = azurerm_network_security_group.pnsg.id
+  
+}
+
