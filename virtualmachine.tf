@@ -14,7 +14,7 @@ resource "azurerm_linux_virtual_machine" "plinuxvm" {
     network_interface_ids = [azurerm_network_interface.pnic.id]
 
     admin_ssh_key {
-      user = "adminuser"
+      username = "adminuser"
       public_key = tls_private_key.ssh-key.public_key_openssh
     }
   
