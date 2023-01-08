@@ -31,6 +31,6 @@ resource "azurerm_linux_virtual_machine" "plinuxvm" {
     version = "latest"
  }
  
- computer_name = var.vmname
- disable_password_authentication = true 
+computer_name = var.vmname
+disable_password_authentication = true 
 }
