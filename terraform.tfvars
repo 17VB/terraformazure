@@ -8,4 +8,5 @@ subnetname = "psubnet"
 publicipname = "ppublicip"
 nsgname = "pnsg"
 nicname = "pnic"
+vmname = "plinuxvmVB"
 
